@@ -1,0 +1,99 @@
+@media (max-width: 480px){
+    .messenger__org_instructions{
+        width: 90%;
+        font-size: 14px;
+        margin-top: 100px;
+    }
+    .phone__inner_screen{
+        width: 100%;
+    }
+    .phone{
+        width: 80%;
+    }
+    .phone__inner_head{
+        width: 100%;
+    }
+    .btn-prnt{
+        width: 100%;
+    }
+    .messaging{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bot__message, .user_message{
+        width: 170px;
+    }
+    .user__message{
+        width: 170px;
+    }
+}
+@media (max-width: 414px){
+    .messenger__org_instructions{
+        margin-bottom: 25px;
+        margin-top: 150px;
+    }
+    .phone__inner_head {
+        height: 35px;
+    }
+    .phone__head_circle {
+        width: 10px;
+        height: 10px;
+    }
+    .btn-prnt {
+        height: 35px;
+    }
+    .btn__prnt_setup{
+        width: 35px;
+        height: 35px;
+    }
+    .phone{
+        height: 682px;
+    }
+    .bot__message{
+        width: 150px;
+    }
+    .user__message{
+        width: 150px;
+        transform: translateX(150px);
+    }
+    .phone__inner_screen{
+        height: 500px;
+    }
+    .phone{
+        height: 500px;
+    }
+    .messenger__org_instructions {
+        margin-top: 0px;
+    }      
+}
+@media(max-width:360px){
+    .bot__message {
+        font-size: 12px;
+    }
+    .user__message{
+        font-size: 12px;
+        transform: translateX(110px);
+    }
+    .messaging__inp {
+        font-size: 16px;
+    }
+    .messenger__org_instructions {
+        margin-top: 50px;
+    }
+    .messaging__inp{
+        height: 25px;
+    }
+    .send__messaging{
+        height: 29px;
+    }
+    .phone {
+        width: 90%;
+    }
+    .btn-prnt {
+        height: 40px;
+    }
+    .screen__div {
+        transform: translateY(0px);
+    }
+}

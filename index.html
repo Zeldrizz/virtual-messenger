@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Messenger</title>
+</head>
+
+<body>
+
+    <section class="messenger__org">
+        <p class="messenger__org_instructions">1)Если бот сразу не отвечает, то напишите сообщение заново.
+            2)Поле с сообщениями атоматически очищается. 
+            3)Это Beta версия, работать может странно.
+            4)Бот генерирует сообщения, их будет два, но взаимодейтсвуйте только с первым сообщением бота.</p>
+        <div class="phone">
+            <div class="phone__inner">
+
+                <div class="phone__inner_head">
+                    <div class="phone__head_circle"></div>
+                    <div class="phone__head_line"></div>
+                    <div class="phone__head_circle"></div>
+                </div>
+
+                <div class="phone__inner_screen">
+                    <p class="bot__message"></p>
+                    <p class="user__message"></p>
+                </div>
+
+                <div class="screen__messaging">
+                    <div class="screen__div">
+                        <div class="messaging">
+                            <input class="messaging__inp" type="text">
+                            <button class="send__messaging" type="button"><i class="fab fa-telegram-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-prnt">
+                    <button class="btn__prnt_setup" type="button"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="box">
+        <img class="box__img" src="img/screen__bg.png" alt="">
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

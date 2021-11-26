@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.messenger__org{
+   width: 100vw;
+   height: 100vh;
+   /* background: url('../img/messenger__bg.jpg') 50% 50% / cover no-repeat; */
+   background: #1f1f1f;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.phone {
+    width: 500px;
+    height: 700px;
+    background: #fff;
+    box-shadow: 50px 50px 50px black;
+    border-radius: 30px;
+}
+
+.phone__inner{
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-prnt{
+    background-color: #f5f5f5;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+}
+
+.btn__prnt_setup{
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    outline: none;
+}
+
+.phone__inner_head{
+    background-color: #f5f5f5;
+    height: 50px;
+    width: 500px;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone__head_circle{
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 30px;
+}
+
+.phone__head_line{
+    width: 30px;
+    height: 5px;
+    background: #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.phone__inner_screen {
+    height: 580px;
+    width: 500px;
+    background: url('../img/screen__bg.png');
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.box{
+    display: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    }
+
+input:-webkit-autofill {
+    color: #ffffff !important;
+}
+
+
+.messaging {
+    width: 500px;
+    height: 30px;
+    display: flex;
+    font-size: 18px;
+
+}
+
+.screen__div{
+    transform: translateY(-4px);
+}
+
+.send__messaging{
+    width: 40px;
+    height: 37px;
+    border-style: none;
+    border: 2px solid #1f1f1f;
+    outline: 0;
+    font-size: 20px;
+}
+
+.bot__message{
+    display: none;
+    width: 200px;
+    padding: 10px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 15px;
+}
+
+.user__message{
+    display: none;
+    width: 200px;
+    padding: 10px;
+    background: #fff;
+    transform: translateX(270px);
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 15px;
+}
+
+.messaging__inp{
+    width: 100%;
+    height: 33px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.messenger__org_instructions{
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 30%; 
+    text-align: center;
+    margin-bottom: 50px;
+}
